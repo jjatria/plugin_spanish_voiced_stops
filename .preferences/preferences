@@ -1,0 +1,10 @@
+textGrid_folder_dir: /home/rolando/Desktop/test
+sound_folder_dir: /home/rolando/Desktop/test
+phone_tier: 1
+word_tier: 4
+code_tier: 6
+phoneme_b_forms: b|B
+phoneme_d_forms: d|D
+phoneme_g_forms: g|G
+case: 2
+transcriber_id: JEU
