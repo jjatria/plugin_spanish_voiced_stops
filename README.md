@@ -4,4 +4,4 @@ This Praat plug-in is a complex script that helps the transcriber find one-by-on
 ## Plugin instalation 
 ## How to set-up the plug-in
 ## Scan TextGrids
-## How to run the plug-inhttps://github.com/rolandomunoz/plugin_spanish_voiced_stops
+## How to run the plug-in
