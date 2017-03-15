@@ -3,7 +3,7 @@ Homepage: https://github.com/rolandomunoz/plugin_spanish_voiced_stops_v2.0.0
 Version: 2.0.0
 Maintainer: R. Muñoz Aramburú <rolando.muar@gmail.com>
 Supported_by: Spanish voiced stops project
-Project_director: Prof. José Elías-Ulloa <jose.elias-ulloa@stonybrook.edu>
+Project_director: José Elías-Ulloa <jose.elias-ulloa@stonybrook.edu>
 Depends:
   praat: 6.0.0+
   Plugins: []
