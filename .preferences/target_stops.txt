@@ -1,0 +1,106 @@
+key_value	code	phrase	word_orth	word_SAMPA	word_ocurrence	letter_orth	consonant	segmental_context	segmental_ocurrence	monosyllable	stressed	word_initial_syllable	word_final_syllable	phrase_initial_syllable	phrase_final_syllable	lexical	inside_root
+1001	S01_T01	Para el desayuno, el almuerzo y la comida, Lorena bebe limonada.	bebe	beBe	1	b	b	a_e	1	0	1	1	0	0	0	1	1
+1002	S01_T02	Allí, Lorena vende guaraná.	vende	bende	1	b	b	a_e	1	0	1	1	0	0	0	1	1
+1003	S01_T05	Manolo robó la bodega.	robó	roBo	1	b	b	o_o	1	0	1	0	1	0	0	1	1
+1004	S01_T05	Manolo robó la bodega.	bodega	boDeGa	1	b	b	a_o	1	0	0	1	0	0	0	1	1
+1005	S01_T05	Manolo robó la bodega.	bodega	boDeGa	1	d	d	o_e	1	0	1	0	0	0	0	1	1
+1006	S01_T06	Con mucha tristeza, Lorena miraba la moneda.	miraba	mi4aBa	1	b	b	a_a	1	0	0	0	1	0	0	1	0
+1007	S01_T09	Mientras ellas se divertían, Lorena miraba la luna.	miraba	mi4aBa	1	b	b	a_a	1	0	0	0	1	0	0	1	0
+1008	S01_T10	Nunca lo olvidaría.	olvidaría	olBiDa4ia	1	d	d	i_a	1	0	0	0	0	0	0	1	1
+1009	S02_T01	A Daniel le gusta mucho estudiar idiomas raros.	estudiar	estuDjar	1	d	d	u_i	1	0	1	0	1	0	0	1	1
+1010	S02_T01	A Daniel le gusta mucho estudiar idiomas raros.	gusta	gusta	1	g	g	e_u	1	0	1	1	0	0	0	1	1
+1011	S02_T03	Mientras ella trabajaba en el jardín, Dora quemaba la novela y Nora botaba la canela.	novela	noBela	1	v	b	o_e	1	0	1	0	0	0	0	1	1
+1012	S02_T04	La mamá de Daniel, con mucho cuidado, curó las heridas del colibrí.	cuidado	kwiDaDo	1	d	d	i_a	1	0	1	0	0	0	0	1	1
+1013	S02_T04	La mamá de Daniel, con mucho cuidado, curó las heridas del colibrí.	cuidado	kwiDaDo	1	d	d	a_o	2	0	0	0	1	0	1	1	0
+1014	S02_T04	La mamá de Daniel, con mucho cuidado, curó las heridas del colibrí.	heridas	e4iDas	1	d	d	i_a	1	0	0	0	1	0	0	1	0
+1015	S02_T05	Al verlo triste a Daniel, su mamá le propuso que mientras ella estaba fuera, Diego cuidaría al colibrí.	cuidaría	kwiDa4ia	1	d	d	i_a	1	0	0	0	0	0	0	1	1
+1016	S02_T06	Entonces fue así que en las siguientes semanas, todos los días, Daniel estudiaba bengalí mientras Diego miraba al colibrí.	todos	toDos	1	d	d	o_o	1	0	0	0	1	0	0	1	1
+1017	S02_T06	Entonces fue así que en las siguientes semanas, todos los días, Daniel estudiaba bengalí mientras Diego miraba al colibrí.	siguientes	siGjentes	1	g	g	i_i	1	0	1	0	0	0	0	1	1
+1018	S02_T06	Entonces fue así que en las siguientes semanas, todos los días, Daniel estudiaba bengalí mientras Diego miraba al colibrí.	Diego	djeGo	1	g	g	e_o	1	0	0	0	1	0	0	1	1
+1019	S02_T07	Cuando el colibrí sanó, siguió batiendo sus alas para la alegría de Dora, Nora, Diego, Daniel y su mami.	Dora	dora	1	d	d	e_o	1	0	1	1	0	0	0	1	1
+1020	S02_T07	Cuando el colibrí sanó, siguió batiendo sus alas para la alegría de Dora, Nora, Diego, Daniel y su mami.	siguió	siGjo	1	g	g	i_i	1	0	1	0	1	0	0	1	1
+1021	S03_T01	Lo primero que recuerdo de mi sueño era que había un niño, una brújula, una víbora gigante y un señor árabe.	víbora	biBora	1	b	b	i_o	1	0	0	0	0	0	0	1	1
+1022	S03_T01	Lo primero que recuerdo de mi sueño era que había un niño, una brújula, una víbora gigante y un señor árabe.	árabe	araBe	1	b	b	a_e	1	0	0	0	1	0	1	1	1
+1023	S03_T01	Lo primero que recuerdo de mi sueño era que había un niño, una brújula, una víbora gigante y un señor árabe.	de	de	1	d	d	o_e	1	1	0	1	1	0	0	0	1
+1024	S03_T02	El niño miraba la brújula mientras la víbora devoraba al árabe.	víbora	biBora	1	b	b	i_o	1	0	0	0	0	0	0	1	1
+1025	S03_T02	El niño miraba la brújula mientras la víbora devoraba al árabe.	árabe	araBe	1	b	b	a_e	1	0	0	0	1	0	1	1	1
+1026	S03_T02	El niño miraba la brújula mientras la víbora devoraba al árabe.	devoraba	deBo4aBa	1	d	d	a_e	1	0	0	1	0	0	0	1	1
+1027	S03_T04	De pronto, sin ningún aviso, el niño prendió una bengala y la doña pulió la moneda.	doña	doJa	1	d	d	a_o	1	0	1	1	0	0	0	1	1
+1028	S03_T06	Antes de despertar, vi que Danilo dibujaba un número mientras Mariana le mostraba una lámina de algo que parecía un paisaje.	de	de	2	d	d	a_e	1	1	0	1	1	0	0	0	1
+1029	S03_T09	Danilo borraba el número y Mariana guardaba la lámina.	borraba	boraBa	1	b	b	o_o	1	0	0	1	0	0	0	1	1
+1030	S03_T09	Danilo borraba el número y Mariana guardaba la lámina.	guardaba	gwarDaBa	1	g	g	a_u	1	0	0	1	0	0	0	1	1
+1031	S03_TD2	Alrededor de ellos, había muchas luces de bengala sin encender.	alrededor	alreDeDor	1	d	d	e_e	1	0	0	0	0	0	0	1	1
+1032	S04_T01	En la mañana bebe guaraná.	bebe	beBe	1	b	b	a_e	1	0	1	1	0	0	0	1	1
+1033	S04_T04	¿cómo haría para lavar su ropa?	lavar	laBar	1	v	b	a_a	1	0	1	0	1	0	0	1	1
+1034	S04_T05	Al pasar por la esquina, miró la bodega.	bodega	boDeGa	1	b	b	a_o	1	0	0	1	0	0	0	1	1
+1035	S04_T05	Al pasar por la esquina, miró la bodega.	bodega	boDeGa	1	d	d	o_e	1	0	1	0	0	0	0	1	1
+1036	S04_T06	Ayer vendió la bodega.	bodega	boDeGa	1	b	b	a_o	1	0	0	1	0	0	0	1	1
+1037	S04_T06	Ayer vendió la bodega.	bodega	boDeGa	1	d	d	o_e	1	0	1	0	0	0	0	1	1
+1038	S04_T14	Para ganar dinero, él se va al mercado y vende limonada.	vende	bende	1	v	b	i_e	1	0	1	1	0	0	0	1	1
+1039	S04_T15	Y cuando el negocio no le va bien, juega dominó.	negocio	neGosjo	1	g	g	e_o	1	0	1	0	0	0	0	1	1
+1040	S05_T01	Me dijo que en este país nunca miraban la luna.	dijo	dixo	1	d	d	e_i	1	0	1	1	0	0	0	1	1
+1041	S05_T02	Ella abrió su cajón y sacó una cajita de zapatos.	de	de	1	d	d	a_e	1	1	0	1	1	0	0	0	1
+1042	S05_T04	Me gustaron mucho las imágenes que vi.	gustaron	gustaron	1	g	g	e_u	1	0	0	1	0	0	0	1	1
+1043	S05_T05	Le pedí que me regalara una de ellas y me dijo que tal vez luego.	dijo	dixo	1	d	d	e_i	1	0	1	1	0	0	0	1	1
+1044	S05_T05	Le pedí que me regalara una de ellas y me dijo que tal vez luego.	pedí	peDi	1	d	d	e_i	1	0	1	0	1	0	0	1	1
+1045	S05_T06	He insistido todos estos días.	todos	toDos	1	d	d	o_o	1	0	0	0	1	0	0	1	1
+1046	S05_T06	He insistido todos estos días.	insistido	insistiDo	1	d	d	i_o	1	0	0	0	1	0	0	1	0
+1047	S05_TD3	Además tenían tantas riquezas que sólo se dedicaban a construir ciudades inmensas.	dedicaban	deDikaBan	1	d	d	e_i	1	0	0	0	0	0	0	1	1
+1048	S06_T02	¿Lorena olvidó la guaraná?	olvidó	olBiDo	1	d	d	i_o	1	0	1	0	1	0	0	1	1
+1049	S06_T05	¿y qué pasó con el concurso de su colegio?	de	de	1	d	d	o_e	1	1	0	1	1	0	0	0	1
+1050	S06_T06	¿Lalo ganó el regalo?	regalo	reGalo	1	g	g	e_a	1	0	1	0	0	0	0	1	1
+1051	S06_T11	¿Quién donó el regalo?	regalo	reGalo	1	g	g	e_a	1	0	1	0	0	0	0	1	1
+1052	S06_T15	¿Se quedó viendo tele?	quedó	keDo	1	d	d	e_o	1	0	1	0	1	0	0	1	1
+1053	S06_T20	¿Bernabé devoraba qué?	devoraba	deBo4aBa	1	d	d	e_e	1	0	0	1	0	0	0	1	1
+1054	S06_TD4	¡Chao, cuidate Bernabé, nos hablamos pronto!	cuidate	kwiDate	1	d	d	i_a	1	0	0	0	0	0	0	1	1
+1055	S06_TG1	Le gusta que siempre esté limpia, especialmente su escritorio.	gusta	gusta	1	g	g	e_u	1	0	1	1	0	0	0	1	1
+1056	S06_TG4	Mariano estaba pensando cómo conseguir dinero para comprar una televisión nueva.	conseguir	konseGir	1	g	g	e_i	1	0	1	0	1	0	0	1	1
+1057	S06_TG5	Cuando Débora llegó a casa de la tía Margarita, le contó todo lo que había pasado.	llegó	LeGo	1	g	g	e_o	1	0	1	0	1	0	0	1	1
+1058	S07_T02	El abuelo no sabe nada de la sorpresa.	nada	naDa	1	d	d	a_a	1	0	0	0	1	0	0	1	1
+1059	S07_T02	El abuelo no sabe nada de la sorpresa.	de	de	1	d	d	a_e	1	1	0	1	1	0	0	0	1
+1060	S07_T07	¡Ya llegamos!	llegamos	LeGamos	1	g	g	e_a	1	0	1	0	0	0	0	1	1
+1061	S07_T08	Abuelo, mi papi te ha comprado una torta.	comprado	kompraDo	1	d	d	a_o	1	0	0	0	1	0	0	1	0
+1062	S07_T09	¿tu papá me ha comprado qué?	comprado	kompraDo	1	d	d	a_o	1	0	0	0	1	0	0	1	0
+1063	S07_T14	¿Te gusta el color?	gusta	gusta	1	g	g	e_u	1	0	1	1	0	0	0	1	1
+1064	S07_T15	¿Qué modelo compraron?	modelo	moDelo	1	d	d	e_o	1	0	1	0	0	0	0	1	1
+1065	S07_T25	Mi mami dobló el timón a la izquierda y esquivó al camión con gran destreza.	esquivó	eskiBo	1	v	b	i_o	1	0	1	0	1	0	0	1	1
+1066	S07_T26	Belinda, su amiga de toda la vida, le regaló una moneda de oro.	toda	toDa	1	d	d	o_a	1	0	0	0	1	0	0	1	1
+1067	S07_T26	Belinda, su amiga de toda la vida, le regaló una moneda de oro.	moneda	moneDa	1	d	d	e_a	1	0	0	0	1	0	0	1	1
+1068	S07_T26	Belinda, su amiga de toda la vida, le regaló una moneda de oro.	amiga	amiGa	1	g	g	i_a	1	0	0	0	1	0	0	1	1
+1069	S07_T27	¿Belinda? ¡No, papá! Mariela me regaló la moneda.	regaló	reGalo	1	g	g	e_a	1	0	0	0	0	0	0	1	1
+1070	S07_T28	Belinda nos regaló la lavadora.	regaló	reGalo	1	g	g	e_a	1	0	0	0	0	0	0	1	1
+1071	S07_T29	No fue la lavadora. La secadora nos regaló Belinda.	regaló	reGalo	1	g	g	e_a	1	0	0	0	0	0	0	1	1
+1072	S07_T32	¿quién les regaló la lavadora?	regaló	reGalo	1	g	g	e_a	1	0	0	0	0	0	0	1	1
+1073	S07_T33	La lavadora nos la regaló el abuelo.	regaló	reGalo	1	g	g	e_a	1	0	0	0	0	0	0	1	1
+1074	S07_T34	¿esa gallina se la regaló a ustedes Mariano?	gallina	gaLina	1	g	g	a_a	1	0	0	1	0	0	0	1	1
+1075	S07_TG2	Sí, sí, me gusta.	gusta	gusta	1	g	g	e_u	1	0	1	1	0	0	0	1	1
+1076	S07_TG3	Cuando regresemos a Madre de Dios, conseguimos un conejo con orejas muy grandes como te gustan a ti.	gustan	gustan	1	g	g	e_u	1	0	1	1	0	0	0	1	1
+1077	S08_T01	Mi amigo logra escuchar que Dora trabaja mañana, pero no escuchó cuándo trabaja Daniel.	Dora	dora	1	d	d	e_o	1	0	1	1	0	0	0	1	1
+1078	S08_T01	Mi amigo logra escuchar que Dora trabaja mañana, pero no escuchó cuándo trabaja Daniel.	amigo	amiGo	1	g	g	i_o	1	0	0	0	1	0	0	1	1
+1079	S08_T03	Dora trabaja mañana mientras Daniel trabaja hoy	trabaja	t4aBaxa	1	b	b	a_a	1	0	1	0	0	0	0	1	1
+1080	S08_T03	Dora trabaja mañana mientras Daniel trabaja hoy	trabaja	t4aBaxa	2	b	b	a_a	1	0	1	0	0	0	0	1	1
+1081	S08_T06	Dora leía la novela mientras Manuel mordía la canela	novela	noBela	1	v	b	o_e	1	0	1	0	0	0	0	1	1
+1082	S08_T08	Dora leía la novela mientras Manuel mordía la canela.	novela	noBela	1	v	b	o_e	1	0	1	0	0	0	0	1	1
+1083	S08_T10	¿El niño miraba la brújula mientras la víbora devoraba a quién?	víbora	biBora	1	b	b	i_o	1	0	0	0	0	0	0	1	1
+1084	S08_T10	¿El niño miraba la brújula mientras la víbora devoraba a quién?	devoraba	deBo4aBa	1	d	d	a_e	1	0	0	1	0	0	0	1	1
+1085	S08_T11	El niño miraba la brújula mientras la víbora devoraba al árabe	árabe	araBe	1	b	b	a_e	1	0	0	0	1	0	1	1	1
+1086	S08_T12	¿Qué miraba el niño mientras la víbora devoraba al árabe?	víbora	biBora	1	b	b	i_o	1	0	0	0	0	0	0	1	1
+1087	S08_T12	¿Qué miraba el niño mientras la víbora devoraba al árabe?	árabe	araBe	1	b	b	a_e	1	0	0	0	1	0	1	1	1
+1088	S08_T12	¿Qué miraba el niño mientras la víbora devoraba al árabe?	devoraba	deBo4aBa	1	d	d	a_e	1	0	0	1	0	0	0	1	1
+1089	S08_T13	El niño miraba la brújula mientras la víbora devoraba al árabe	víbora	biBora	1	b	b	i_o	1	0	0	0	0	0	0	1	1
+1090	S08_T13	El niño miraba la brújula mientras la víbora devoraba al árabe	árabe	araBe	1	b	b	a_e	1	0	0	0	1	0	1	1	1
+1091	S08_T13	El niño miraba la brújula mientras la víbora devoraba al árabe	devoraba	deBo4aBa	1	d	d	a_e	1	0	0	1	0	0	0	1	1
+1092	S08_T15	¿Qué estudiaba Dora y qué miraba Daniel?	miraba	mi4aBa	1	b	b	a_a	1	0	0	0	1	0	0	1	0
+1093	S08_T16	Dora estudiaba bengalí y Daniel miraba al colibrí.	miraba	mi4aBa	1	b	b	a_a	1	0	0	0	1	0	0	1	0
+1094	S08_T21	¿Qué agarraba Mariana mientras Ramón miraba al guaraní?	miraba	mi4aBa	1	b	b	a_a	1	0	0	0	1	0	0	1	0
+1095	S08_T23	¿Has visto que Manolo ha abierto una bodega en la esquina?	bodega	boDeGa	1	g	g	e_a	1	0	0	0	1	0	0	1	1
+1096	S08_T26	Manolo vende guaraná.	vende	bende	1	v	b	o_e	1	0	1	1	0	0	0	1	1
+1097	S08_T27	¿Qué robó Benigno?	robó	roBo	1	b	b	o_o	1	0	1	0	1	0	0	1	1
+1098	S08_T28	Benigno robó el dinero.	robó	roBo	1	b	b	o_o	1	0	1	0	1	0	0	1	1
+1099	S08_T32	También le había contado a mi amigo que en mi sueño yo vi a Emilio borrando y a Elena guardando algo.	guardando	gwarDando	1	g	g	a_u	1	0	0	1	0	0	0	1	1
+1100	S08_T32	También le había contado a mi amigo que en mi sueño yo vi a Emilio borrando y a Elena guardando algo.	amigo	amiGo	1	g	g	i_o	1	0	0	0	1	0	0	1	1
+1101	S08_T34	En mi sueño, Emilio borraba un número y Elena guardaba una lámina.	borraba	boraBa	1	b	b	o_o	1	0	0	1	0	0	0	1	1
+1102	S08_T34	En mi sueño, Emilio borraba un número y Elena guardaba una lámina.	guardaba	gwarDaBa	1	g	g	a_u	1	0	0	1	0	0	0	1	1
+1103	S08_TD1	Luego de un rato, mi amigo me dijo que se olvidó lo que leía Dora.	olvidó	olBiDo	1	d	d	i_o	1	0	1	0	1	0	0	1	1
+1104	S08_TG6	Entonces yo para capturar su atención le seguí contando la aventura que pasé en mi sueño.	seguí	seGi	1	g	g	e_i	1	0	1	0	1	0	0	1	1
+1105	S08_TG7	En ese momento llegó mi mamá.	llegó	LeGo	1	g	g	e_o	1	0	1	0	1	0	0	1	1
