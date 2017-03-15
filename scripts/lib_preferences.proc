@@ -1,0 +1,69 @@
+#Description: This script stablish a protocol to retrive and modify field information from "preferences folder files". 
+
+#@set_field_content_from: file_dir_preferences,"textGrid_folder", "/home/rolando/.praat-dir/plugin_oral_stops/demo"
+#@get_field_content_from: file_dir_preferences, "textGrid_folder"
+#field_content$ = get_field_content_from.return$
+#@index_open: file_dir_index$
+
+procedure lib_preference.preferences_set_field_content_from: .file_dir_preferences$, .field_name$, .field_content$
+    .file_preferences = Read Strings from raw text file: .file_dir_preferences$
+    .n_lines = Get number of strings
+    .i_line = 0
+    repeat
+        .i_line+=1
+        .line$ = Get string: .i_line
+        .temp_field_name$ = replace_regex$(.line$, ": .*", "",1)
+        .temp_field_content$= replace_regex$(.line$, ".*: ", "", 1)
+        if .temp_field_name$ == .field_name$
+            .line$ = .temp_field_name$+ ": " + .field_content$
+            Set string: .i_line, .line$
+            Save as raw text file: file_dir_preferences$
+            .i_line = .n_lines
+        endif
+    until .i_line = .n_lines 
+    removeObject: .file_preferences
+endproc
+
+procedure lib_preference.preferences_get_field_content_from: .file_dir_preferences$, .field_name$
+    .file_preferences = Read Strings from raw text file: file_dir_preferences$
+    .n_lines = Get number of strings
+    .i_line = 0
+    .return$ = "None"
+
+    repeat
+        .i_line+=1
+        .line$ = Get string: .i_line
+        .temp_field_name$ = replace_regex$(.line$, ": .*", "",1)
+        .temp_field_content$= replace_regex$(.line$, ".*: ", "", 1)
+        if .temp_field_name$ == .field_name$
+             .return$ = .temp_field_content$
+            .i_line = .n_lines
+        endif
+    until .i_line = .n_lines 
+    removeObject: .file_preferences
+endproc
+
+procedure lib_preference.index_open: .file_dir_index$
+    #Open the preferences.txt. Then create a preferences_backup.txt if not any.
+    .file_dir_index_backup$ = (.file_dir_index$ - ".txt") + "_backup.txt"
+    if fileReadable(.file_dir_index$)
+        Read from file: .file_dir_index$
+        if not fileReadable(.file_dir_index_backup$)
+            Save as tab-separated file: .file_dir_index_backup$        
+        endif
+    else
+        exitScript: "Please, scan TextGrids first. Thank you."        
+    endif
+endproc
+
+procedure lib_preference.index_set_case: .row, .checked, .phone_transcribed$
+    Set numeric value: .row, "checked", .checked
+    Set string value: .row, "phone_transcribed", .phone_transcribed$
+endproc
+
+procedure lib_preference.index_save: .file_dir_index$
+    Save as tab-separated file: .file_dir_index$
+endproc
+
+#Save as tab-separated file: tg_folder$+"/"+transcriptorID$+"_"+"report_spn.txt"
+#check_interval_content.interval_label

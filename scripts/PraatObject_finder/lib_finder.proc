@@ -1,0 +1,114 @@
+#save_data
+#check_interval_content
+#get_maximum_intensity_from_segment
+#erase_interval
+#ask_user
+#open_TextGridEditor
+#end_TextGridEditor
+
+procedure lib_finder.check_number: .number, .min_number, .max_number
+    #
+    if .number > .max_number
+        .number = .max_number
+    elsif .number < .min_number
+        .number = .min_number
+    endif
+    .return = .number
+endproc
+
+procedure lib_finder.get_next_number: .number, .min_number, .max_number
+    #
+    if .number = .max_number
+        .next_number = .min_number
+    elsif .number < .min_number
+        .next_number = .max_number
+    else
+        .next_number = .number + 1
+    endif
+    .return = .next_number
+endproc
+
+procedure lib_finder.tg_save: .tg_fullname$
+    Save as text file: .tg_fullname$
+endproc
+
+procedure lib_finder.check_interval_content: .segment_tier, .time
+    #Verificar si el intervalo está vacío
+    .interval = Get interval at time: .segment_tier, .time
+    .interval_label$ = Get label of interval: .segment_tier, .interval
+    if .interval_label$ = "pause" 
+        .return$ = "erase_interval"
+    elsif .interval_label$ = ""
+        .return$ = "go_back"
+    else
+        .return$ = "continue"
+    endif
+endproc
+
+procedure lib_finder.get_maximum_intensity_from_segment: .segment_tier, .time, .margin
+    #
+    .sdID = selected("Sound")
+    .tgID = selected("TextGrid")
+
+    selectObject: .tgID
+    .interval = Get interval at time: .segment_tier, .time
+    .tmin_segment_tier = Get start time of interval: .segment_tier, .interval
+    .tmax_segment_tier = Get end time of interval: .segment_tier, .interval
+    selectObject: .sdID
+    .sdID_extracted = Extract part: .tmin_segment_tier-.margin, .tmax_segment_tier+.margin, "Gaussian1", 1, "yes"
+    .idIntensity_extracted = To Intensity: 100, 0, "yes"
+    .return = Get maximum: 0, 0, "Parabolic"
+    removeObject: .sdID_extracted, .idIntensity_extracted
+endproc
+
+procedure lib_finder.erase_interval: .segment_tier, .time
+    #Remove interval text
+    .tgID = selected("TextGrid")
+    selectObject: .tgID
+    .interval = Get interval at time: .segment_tier, .time
+    Set interval text: .segment_tier, .interval, ""
+endproc
+
+procedure lib_finder.ask_user_unchecked: .case, .number_of_cases, .next_case
+    #Insertar pausa
+    beginPause: "Finder"
+        comment: "Case number:  '.case'"
+        comment: "Progress : '.case'/'.number_of_cases'"
+        integer: "Next case:", .next_case
+    .return = endPause: "Save & go", "Skip", "Missing case", 1
+    .next_case = next_case
+endproc
+
+procedure lib_finder.ask_user_checked: .case, .number_of_cases, .next_case
+    #Insertar pausa
+    beginPause: "Finder"
+        comment: "Case number:  '.case'"
+        comment: "Progress : '.case'/'.number_of_cases'"
+        integer: "Next case:", .next_case
+    .return = endPause: "Save & go", "Skip", "Quit", 2
+    .next_case = next_case
+endproc
+procedure lib_finder.TextGridEditor_open
+    #Open TextGridEditor
+    .tgID = selected("TextGrid")
+    View & Edit
+    editor: .tgID
+endproc
+
+procedure lib_finder.TextGridEditor_settings: .spectrogram_max_hz, .spectrogram_dynamic_range, .intensity_maximum
+    Show analyses: "yes", "no", "yes", "no", "no", 10
+    Spectrogram settings: 0, .spectrogram_max_hz, 0.005, .spectrogram_dynamic_range
+    Intensity settings: 40, .intensity_maximum, "mean energy", "yes"
+endproc
+
+procedure lib_finder.TextGridEditor_zoom: .time, .margin
+    #Zoom interval part
+    Select: .time-.margin, .time+.margin
+    Zoom to selection
+    Move cursor to: .time
+endproc
+
+procedure lib_finder.TextGridEditor_close
+    Close
+    endeditor
+endproc
