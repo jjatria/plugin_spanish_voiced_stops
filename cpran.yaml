@@ -8,7 +8,7 @@ Depends:
   praat: 6.0.0+
 Recommends:
 License: GPL3
-Readme: readme.md
+Readme: README.md
 Description:
   Short: This Praat plug-in is a complex script that helps 
   the transcriber find one-by-one a set of particular Spanish voiced 
