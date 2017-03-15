@@ -1,0 +1,72 @@
+Plugin: spanish_voiced_stops
+Homepage: -
+Version: 2.0.0
+Maintainer: Rolando Muñoz Aramburú <rolando.muar@gmail.com>
+Supported_by: Spanish voiced stops project
+Project_director: Prof. José Elías-Ulloa <jose.elias-ulloa@stonybrook.edu>
+Depends:
+  praat: 6.0.0+
+Recommends:
+License: GPL3
+Readme: 
+Description:
+  Short: This Praat plug-in is a complex script that helps 
+  the transcriber find one-by-one a set of particular Spanish voiced 
+  stops so their phonetic properties can be identified and transcribed.
+
+  Long: >
+
+Last_changes:
+  2.0.0 (12 March 2017)
+    -A new root menu was added. It is called 'Index'
+    
+    -A new function was added as 'Import index'. It is located at the
+    Index menu.
+    
+    -'Save report' button was renamed as 'Export index'. It is located
+    at the Index menu.
+
+    -'Scan TextGrids' is located at the Index menu.
+    
+    -The menu 'Settings' has been renamed as 'Preferences'.
+    
+    -The functions contained in 'Preference menu' are now organized in 
+    'Query' and 'Modify' submenus.
+    
+    -Run plug-in...: 'Supervisor mode' option has been replaced. Instead,
+    a dialog box will be displayed when you are done with the 
+    transcriptions. This will ask you if you would like to review the
+    transcriptions. 
+    
+    -Run plug-in...: Fixed a bug by which TextGrids could not be saved 
+    when supervisor mode was in used.
+    
+    -TextGridEditor: The buttons for the Dialog box has been reorganized.
+    
+    -TextGridEditor: Added a button called 'Quit' in the Dialog box when
+    the transcriptions are done.
+    
+    -The scripting code has been updated and reorganized in order to be
+    more maintainable. Procedures (.proc) and implementation (.praat).
+    
+    -New plug-in structure which is based in CPrAn (http://cpran.net/) 
+    guidelines.
+    
+  1.1.0 (13 Februry 2017)
+    -Optimal intensity (roof intensity) is displayed when a TextGridEditor 
+    window is opened.
+
+  1.0.0(31 January 2017)
+    -Add function Set transcritor ID to 'Settings'.
+    
+    -Add Save report in tg folder as default.
+    
+    -insert "pause" to declare an interval empty.
+    
+    -Show intensity contour as default.
+    
+    -Add 'Get intensity' function to the TextGridEditor Window >
+    Intensity.
+    
+  0.0.0(November 2016)
+    - The plug-in was created.
